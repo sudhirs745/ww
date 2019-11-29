@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25c8d4</color>
+    <color name="colorPrimaryDark">#25c8d4</color>
+    <color name="colorAccent">#25c8d4</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#ffffff</color>
+    <color name="colorGray">#9c9ca5</color>
+    <color name="colorText">#3a394c</color>
+    <color name="colorLightBlue">#bdeef2</color>
+    <color name="colorGradiant1">#25c8d4</color>
+    <color name="colorGradiant2">#f1e010</color>
+    <color name="colorGradiant1Alpha">#9925C8D4</color>
+    <color name="colorGradiant2Alpha">#99F1E010</color>
+    <color name="colorturquoise">#00CED1</color>
+    <color name="colorFontLight">#949494</color>
+    <color name="colorGreen">#008577</color>
+
+
+</resources>

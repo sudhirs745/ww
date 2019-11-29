@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/all_corner_drawable"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:translationZ="2dp">
+
+
+        <TextView
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            android:text="Lorem ipsum dolor sit amet,"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/Size4"
+            tools:ignore="MissingPrefix" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                fontPath="fonts/OpenSans-Semibold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Username"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/Size3"
+                tools:ignore="MissingPrefix"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/all_corner_drawable"
+                android:elevation="3dp"
+                android:translationZ="2dp">
+
+                <EditText
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:hint="User Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/Size2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                fontPath="fonts/OpenSans-Semibold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Password"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/Size3"
+                tools:ignore="MissingPrefix" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/all_corner_drawable"
+                android:elevation="3dp"
+                android:orientation="horizontal"
+                android:translationZ="2dp">
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/colorText"
+
+                    android:textSize="@dimen/Size2" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="8dp"
+                    android:padding="8dp"
+                    android:src="@mipmap/close_eye" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Size2"
+            tools:ignore="MissingPrefix" />
+
+        <Button
+            android:id="@+id/login"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_gradiant_background"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Size4"
+            tools:ignore="MissingPrefix" />
+    </LinearLayout>
+
+</ScrollView>

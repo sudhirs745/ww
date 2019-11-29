@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".screens.LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/w2_naturals_logo"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:background="@color/colorWhite"
+        android:id="@+id/tabLayout"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/colorLightBlue"
+        app:tabSelectedTextColor="@color/colorAccent"
+        app:tabGravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:translationZ="2dp"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/signup"
+        android:gravity="center"
+        android:text="Signup"
+        android:textSize="@dimen/Size3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/fgPass"
+        android:layout_marginTop="40dp"
+        android:text="Forget"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+</LinearLayout>
