@@ -498,7 +498,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@android:color/transparent"
-                    android:hint="Your Account/channel/Page link"
+                    android:hint="Your Account"
                     android:imeOptions="actionNext"
                     android:inputType="textCapWords"
                     android:paddingLeft="15dp"
@@ -522,6 +522,40 @@
                     tools:ignore="MissingPrefix" />
 
         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:button="@drawable/checkbox_selector" />
+
+        <TextView
+            android:id="@+id/tv_tc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Agree to our "
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/Size1"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            tools:ignore="MissingPrefix"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" terms and conditions"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/Size1"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            tools:ignore="MissingPrefix"
+            />
+    </LinearLayout>
 
 
         <Button
